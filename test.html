@@ -8,12 +8,12 @@ function loadXMLDoc()
 	var xmlhttp;
 	if (window.XMLHttpRequest)
 	{
-		//  IE7+, Firefox, Chrome, Opera, Safari ä¯ÀÀÆ÷Ö´ĞĞ´úÂë
+		//  IE7+, Firefox, Chrome, Opera, Safari æµè§ˆå™¨æ‰§è¡Œä»£ç 
 		xmlhttp=new XMLHttpRequest();
 	}
 	else
 	{
-		// IE6, IE5 ä¯ÀÀÆ÷Ö´ĞĞ´úÂë
+		// IE6, IE5 æµè§ˆå™¨æ‰§è¡Œä»£ç 
 		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 	}
 	xmlhttp.onreadystatechange=function()
@@ -23,13 +23,13 @@ function loadXMLDoc()
   case 0:
 		window.alert(0); 
   break; 
-  case 1:x="½ñÌìÊÇĞÇÆÚÒ»"; 
+  case 1:x="ä»Šå¤©æ˜¯æ˜ŸæœŸä¸€"; 
   break; 
-  case 2:x="½ñÌìÊÇĞÇÆÚ¶ş"; 
+  case 2:x="ä»Šå¤©æ˜¯æ˜ŸæœŸäºŒ"; 
   break; 
-  case 3:x="½ñÌìÊÇĞÇÆÚÈı"; 
+  case 3:x="ä»Šå¤©æ˜¯æ˜ŸæœŸä¸‰"; 
   break; 
-  case 4:x="½ñÌìÊÇĞÇÆÚËÄ"; 
+  case 4:x="ä»Šå¤©æ˜¯æ˜ŸæœŸå››"; 
   break; 
  
 }
@@ -43,8 +43,8 @@ function loadXMLDoc()
 </head>
 <body>
 
-<div id="myDiv"><h2>Ê¹ÓÃ AJAX ĞŞ¸Ä¸ÃÎÄ±¾ÄÚÈİ</h2></div>
-<button type="button" onclick="loadXMLDoc()">ĞŞ¸ÄÄÚÈİ</button>
+<div id="myDiv"><h2>ä½¿ç”¨ AJAX ä¸­å›½äºº åœ¨è¿™é‡Œ</h2></div>
+<button type="button" onclick="loadXMLDoc()">ä¿®æ”¹å†…å®¹</button>
 
 </body>
 </html>
